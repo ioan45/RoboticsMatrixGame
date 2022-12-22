@@ -46,6 +46,7 @@ void Game::start() {
   matrixShiftCounter = 0;
   playerShown = true;
   shiftDelay = 450.0f;
+  transStartTime = millis();
   lastShiftTime = millis();
   lastSpeedUpdateTime = millis();
   lastScoreUpdateTime = millis();
